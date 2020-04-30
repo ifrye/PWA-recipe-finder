@@ -24,6 +24,7 @@ import Login from './pages/Login'
 import Home from './pages/Home'
 import Search from './pages/Search'
 import MealPlan from './pages/MealPlan'
+import Store from './pages/Store'
 import jsCookie from "js-cookie";
 
 import * as firebase from 'firebase';
@@ -45,6 +46,7 @@ const App: React.FC = () => {
             <Route path="/home" component={Home} exact={true} />
             <Route path="/search" component={Search} exact={true} />
             <Route path="/mealplan" component={MealPlan} exact={true} />
+            <Route path="/store" component={Store} exact={true} />
             <Route path="/" render={() => <Redirect to="/login" />} exact={true} />
             {/*<Route path="/page/inbox" render={() => <Redirect to="/login" />} exact={true} />*/}
           </IonRouterOutlet>

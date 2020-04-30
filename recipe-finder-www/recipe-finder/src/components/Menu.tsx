@@ -32,7 +32,7 @@ const appPages: AppPage[] = [
   },
   {
     title: 'Nearby Grocery Stores',
-    url: '/nearbygrocerystores',
+    url: '/store',
     iosIcon: restaurantOutline,
     mdIcon: restaurantOutline
   },
